@@ -1,0 +1,54 @@
+#our_team {
+    padding: 70px 0 150px;
+    text-align: center;
+
+    header {
+        margin-bottom: 40px;
+
+        h4 {
+            font-weight: 900;
+            letter-spacing: 1.5px;
+            padding: 10px 0;
+        }
+    }
+    .profile-team {
+        position: relative;
+
+        img {
+            position: relative;
+            height: 180px;
+            width: 180px;
+            border-radius: 100%;
+            overflow: hidden;
+            margin: 40px 0;
+
+
+            transition: all 0.35s ease-in-out;
+
+            &:hover, &:focus, &:active {
+              transform: scale(1.1);
+            }
+
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 500;
+            color: $c_b;
+           
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            font-weight: 400;
+            color: $c_content;
+            margin-top: 5px;
+
+        }
+    }
+
+
+
+
+}

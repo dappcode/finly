@@ -1,0 +1,25 @@
+{
+  "name": "finly",
+  "description": "How To Make Web Template with Gulp",
+  "main": "index.js",
+  "authors": [
+    "DappCode"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "homepage": "https://github.com/DappCode/finly-gulp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-beta"
+  }
+}
